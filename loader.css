@@ -1,0 +1,16 @@
+.loader{
+    height: 150px;
+    width: 150px;
+    border: 30px solid rgb(232, 222, 222);
+    border-top: 30px solid orange;
+    border-radius:50% ;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
